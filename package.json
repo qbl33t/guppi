@@ -1,0 +1,39 @@
+{
+  "name": "guppi",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@codemirror/state": "^6.7.1",
+    "@codemirror/view": "^6.43.9",
+    "@fontsource/space-grotesk": "^5.3.0",
+    "@fontsource/ubuntu": "^5.3.0",
+    "@fontsource/ubuntu-mono": "^5.3.0",
+    "@replit/codemirror-vim": "^6.4.0",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "@uiw/codemirror-extensions-langs": "^4.25.11",
+    "@uiw/codemirror-theme-github": "^4.25.11",
+    "@uiw/react-codemirror": "^4.25.11",
+    "@xyflow/react": "^12.11.2",
+    "lucide-react": "^1.31.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4"
+  }
+}
